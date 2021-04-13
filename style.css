@@ -1,0 +1,30 @@
+body{
+    background-color: burlywood;
+}
+
+#case{
+    color:blue;
+    font-size:30px;
+}
+
+.text_images_and_result{
+    background-color: lightpink;
+    width:400px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.mini_result{
+    background-color: grey;
+    width:300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.ol1{
+    list-style:none;
+}
+
+#big{
+    width: 200px;
+}

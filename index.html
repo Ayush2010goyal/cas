@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Emotion To Emoji</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+    <h3 id="case"> Case Study <img src="studies.jpg" id="case_study"></h3>
+<ol  class="ol1">
+<div class="text_images_and_result">
+    <li>
+        <b> 1.  Test Image - </b>
+        <img src="Bottle.jpg" class="img-responsive" id="Bottle">
+    </li>
+
+    <h5> Output on <b> Mobilenet Model</b> - 
+        <span id="result_mobilenet_1"></span>
+    </h5>
+
+    <h5> Output on <b> Wolfram Project</b> - Bottle
+        <span id="result_wolfram_1"></span>
+    </h5>
+
+    <div class="mini_result" >
+        <h4> Result -  </h4>
+        <span id="ResultBottle"> </span>
+        <hr>
+        <h4 id="result_bottle"> </h4>
+    </div>
+</div>
+</ol>
+</center>
+  </body>
